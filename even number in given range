@@ -1,0 +1,30 @@
+Input = 5 10
+
+Output = 6 8 10
+
+program
+
+#include<stdio.h>
+int main()
+{
+    int i,n1,n2,flag;
+    scanf("%d%d",&n1,&n2);
+    i=n1;
+    flag=0;
+    while(i<=n2)
+    {
+        if(i%2==0)
+        {
+            if(flag==0)
+            {
+                printf("%d",i);
+                flag=1;
+            }
+            else
+            {
+                printf(" %d",i);
+            }
+        }
+        i++;
+    }
+}
