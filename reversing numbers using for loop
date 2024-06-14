@@ -1,0 +1,18 @@
+question:program to print the reverse of numbers using for loop
+
+Input:5
+
+Output:5 4 3 2 1 
+
+program:
+
+#include<stdio.h>
+void main()
+{
+    int i,n;
+    scanf("%d",&n);
+    for(i=n;i>=1;i--)
+    {
+        printf("%d ",i);
+    }
+}
