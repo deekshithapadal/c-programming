@@ -1,0 +1,26 @@
+program to print factorial of a natural number 
+
+Input:5
+
+Output:
+i=1 fact=1
+i=2 fact=2
+i=3 fact=6
+i=4 fact=24
+i=5 fact=120
+120
+
+program:
+
+#include<stdio.h>
+int main()
+{
+    int i,n,fact;
+    scanf("%d",&n);
+    for(i=1,fact=1;i<=n;i++)
+    {
+        fact=fact*i;
+        printf("i=%d fact=%d\n",i,fact);
+    }
+    printf("%d ",fact);
+}
